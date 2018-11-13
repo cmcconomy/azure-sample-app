@@ -1452,6 +1452,8 @@
     <ItemGroup>
       <AdminAppFiles Include="..\packages\Progress.Sitefinity.AdminApp.11.1.19259\content\**\*.*">
       </AdminAppFiles>
+      <DecExtensions Include="..\packages\Progress.Sitefinity.Dec.Iris.Extension.11.0.2\content\**\*.*">
+      </DecExtensions>
       <AppData Include="..\packages\Telerik.Sitefinity.All.11.1.6800\content\**\*.*">
       </AppData>
       <Feather Include="..\packages\Telerik.Sitefinity.Feather.11.1.6800\content\**\*.*">
@@ -1460,6 +1462,7 @@
       </SampleTemplate>
     </ItemGroup>
     <Copy SourceFiles="@(AdminAppFiles)" DestinationFolder="$(ProjectDir)\%(RecursiveDir)" />
+    <Copy SourceFiles="@(DecExtensions)" DestinationFolder="$(ProjectDir)\%(RecursiveDir)" />
     <Copy SourceFiles="@(AppData)" DestinationFolder="$(ProjectDir)\%(RecursiveDir)" />
     <Copy SourceFiles="@(Feather)" DestinationFolder="$(ProjectDir)\%(RecursiveDir)" />
     <Copy SourceFiles="@(SampleTemplate)" DestinationFolder="$(ProjectDir)\%(RecursiveDir)" />

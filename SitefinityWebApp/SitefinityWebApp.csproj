@@ -876,6 +876,7 @@
     <Content Include="AdminApp\favicon.ico" />
     <Content Include="AdminApp\index.html" />
     <Content Include="AdminApp\vendors.adabf2513eb2cbf9bac2.bundle.js" />
+    <Content Include="App_Data\appStatusReport.html" />
     <Content Include="App_Data\GeoLocation\citieslist.txt" />
     <Content Include="App_Data\RadCaptcha\0.wav" />
     <Content Include="App_Data\RadCaptcha\1.wav" />
@@ -1404,9 +1405,7 @@
     <Content Include="ResourcePackages\Bootstrap4\assets\src\sitefinity\sass\base\_list.scss" />
     <Content Include="ResourcePackages\Bootstrap4\assets\src\project\sass\main.scss" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Analyzer Include="..\packages\AWSSDK.DynamoDBv2.3.3.7.2\analyzers\dotnet\cs\AWSSDK.DynamoDBv2.CodeAnalysis.dll" />
     <Analyzer Include="..\packages\AWSSDK.S3.3.3.18.1\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
